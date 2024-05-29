@@ -1,0 +1,18 @@
+@import "./_variables.css";
+
+.container {
+  /* padding: 50px $padding-horizontal; */
+  overflow-x: hidden;
+
+  @media (max-width: --desktop-xsm) {
+    padding: 50px --padding-horizontal-mobile;
+  }
+
+  @media (min-width: --desktop-xsm) and (max-width: --desktop-sm) {
+    padding: 50px --padding-horizontal-sm;
+  }
+
+  @media (min-width: --desktop-sm) and (max-width: --desktop-md) {
+    padding: 50px --padding-horizontal-md;
+  }
+}

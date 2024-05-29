@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    /* Breakpoints */
+
+    --mobile: 768px;
+    --desktop-xsm: 980px;
+    --desktop-sm: 1080px;
+    --desktop-md: 1280px;
+
+    /* Paddings */
+
+    --padding-horizontal-mobile: 100px;
+    --padding-horizontal-sm: 150px;
+    --padding-horizontal-md: 200px;
+    --padding-horizontal: 250px;
+
+    /* Fonts */
+
+    --font-primary: "Roboto", sans-serif;
+    --font-secondary: "Righteous", sans-serif;
+
+    /* Colors */
+
+    --pink: #FA01FF;
+}
