@@ -5,7 +5,9 @@ export const LogoStyled = styled.img`
     height: 69.75px;
 `
 
-export const LogoSocialStyled = styled.img`
-    height: 28px;
-    width: 28px;
+export const LogoSocialStyled = styled.svg`
+    fill: #fff;
+    &:hover {
+        fill: var(--pink);
+    }
 `

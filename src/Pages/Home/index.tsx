@@ -1,10 +1,11 @@
 import Banner from "../../Components/Banner"
+import Stacks from "../../Components/Stacks"
 
 const Home = () => {
     return (
         <>
             <Banner />
-            {/* <StacksGroup/> */}
+            <Stacks/>
         </>
     )
 }
