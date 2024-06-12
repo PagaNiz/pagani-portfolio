@@ -1,8 +1,7 @@
 import { useState } from 'react';
+import { Collapse, NavItem, NavLink, Navbar, NavbarToggler } from 'reactstrap';
 import Menu from '../Menu';
-import logo from './assets/logo.png';
-import { Collapse, Nav, NavItem, NavLink, Navbar, NavbarToggler } from 'reactstrap';
-import { LogoSocialStyled, LogoStyled } from './styles';
+import { LogoSocialStyled } from './styles';
 
 const Header = (args: any) => {
 
@@ -13,12 +12,7 @@ const Header = (args: any) => {
         <Navbar {...args} style={{ backgroundColor: '#000' }} dark expand='sm' fixed='top'>
             <NavbarToggler onClick={toggle} />
             <Menu />
-            <Collapse isOpen={isOpen} navbar>
-                <Nav className="mx-auto" navbar>
-                    <NavItem>
-                        <LogoStyled src={logo} alt='Logo' />
-                    </NavItem>
-                </Nav>
+            <Collapse isOpen={isOpen} navbar className='justify-content-end'>
                 <NavItem className='d-flex'>
                     <NavLink href="https://github.com/PagaNiz" target='_blank'>
                         <LogoSocialStyled width="28px" height="28px" viewBox='0 0 100 100' xmlns="http://www.w3.org/2000/svg">

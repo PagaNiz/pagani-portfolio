@@ -20,8 +20,11 @@ export const ContainerH1Styled = styled.div`
     border-radius: 25px;
     top: -25px;
     left: 38%;
-    @media (max-width: 769px){
+    @media (min-width: 621px) and (max-width: 769px){
         left: 32%;
+    }
+    @media (min-width: 320px) and (max-width: 620px){
+        left: 30%;
     }
 `
 

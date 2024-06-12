@@ -1,15 +1,15 @@
 import { Fade } from "react-awesome-reveal"
 import profilePicture from './assets/profilePicture.png'
-import { BannerContainerStyled, BannerStyled } from "./styles"
+import { BannerContainerStyled, BannerStyled, ProfilePicStyled } from "./styles"
 
 const Banner = () => {
     return (
-        <BannerContainerStyled>
+        <BannerContainerStyled id="teste">
             <BannerStyled>
                 <Fade direction='down' triggerOnce={true}>
-                    <img src={profilePicture} alt="Profile Picture" />
+                    <ProfilePicStyled src={profilePicture} alt="Profile Picture" />
                 </Fade>
-                <Fade direction='up' triggerOnce={true}>
+                <Fade direction='up' triggerOnce={true} style={{padding: '0 2rem'}}>
                     <h1>Hi! I'm Lucas Pagani. I'm Front-End Developer.</h1>
                 </Fade>
             </BannerStyled>

@@ -1,6 +1,7 @@
 import { ContainerAnchorStyled, FooterStyled, LogoSocialFooterStyled, ParagraphFooterStyled } from "./styles"
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear()
     return (
         <FooterStyled style={{ color: "white" }}>
             <ContainerAnchorStyled>
@@ -20,7 +21,7 @@ const Footer = () => {
 
                     </LogoSocialFooterStyled>
                 </a>
-                <ParagraphFooterStyled>@2024 | Developed by Lucas Pagani</ParagraphFooterStyled>
+                <ParagraphFooterStyled>@{currentYear} | Developed by Lucas Pagani</ParagraphFooterStyled>
             </ContainerAnchorStyled>
         </FooterStyled>
     )

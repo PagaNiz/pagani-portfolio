@@ -2,11 +2,11 @@ import { Offcanvas, OffcanvasBody } from "reactstrap"
 import styled from "styled-components"
 
 export const ContainerMenuStyled = styled.div`
-    width: 60px;
+    width: 3.75rem;
 `
 export const NavMenu = styled.div`
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
     color: white;
     border-radius: 5px;
     display: flex;
@@ -37,7 +37,7 @@ export const IcoMenu = styled.span`
 `
 
 export const TextStyled = styled.div`
-    font-family: var(--font-secondary);
+    font-family: var(--font-secondary);  
 `
 
 export const OffCanvasContainerStyled = styled(Offcanvas)`
@@ -51,6 +51,7 @@ export const OffCanvasHeadStyled = styled.div`
     padding: 1rem;
     h5 {
         font-family: var(--font-secondary);
+        user-select: none;
     }
 `
 

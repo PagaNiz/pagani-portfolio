@@ -31,7 +31,7 @@ const Menu = () => {
                 </OffCanvasHeadStyled>
                 <OffCanvasBodyStyled>
                     <ButtonAnchorOffCanvas onClick={() => navigate("/")}>Home</ButtonAnchorOffCanvas>
-                    <ButtonAnchorOffCanvas onClick={() => navigate("/projects")}>Projects</ButtonAnchorOffCanvas>
+                    <ButtonAnchorOffCanvas onClick={() => navigate("#")}>Projects</ButtonAnchorOffCanvas>
                 </OffCanvasBodyStyled>
             </OffCanvasContainerStyled>
         </ContainerMenuStyled>

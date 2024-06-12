@@ -9,8 +9,8 @@ export const FooterStyled = styled.footer`
 
 export const ContainerAnchorStyled = styled.div`
     display: flex;
-    gap: 15px;
-    padding: 15px 0;
+    gap: 1rem;
+    padding: 1rem 0;
     align-items: center;
 `
 
