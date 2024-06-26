@@ -1,3 +1,3 @@
 export interface IDefaultPage {
-    children?: React.ReactElement
+  children?: React.ReactElement;
 }

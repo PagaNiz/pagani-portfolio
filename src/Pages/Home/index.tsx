@@ -1,13 +1,13 @@
-import Banner from "../../Components/Banner"
-import Stacks from "../../Components/Stacks"
+import Banner from "../../Components/Banner";
+import Stacks from "../../Components/Stacks";
 
 const Home = () => {
-    return (
-        <>
-            <Banner />
-            <Stacks/>
-        </>
-    )
-}
+  return (
+    <>
+      <Banner />
+      <Stacks />
+    </>
+  );
+};
 
-export default Home
+export default Home;

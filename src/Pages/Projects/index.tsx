@@ -1,11 +1,7 @@
-import { Fragment } from "react/jsx-runtime"
+import { Fragment } from "react/jsx-runtime";
 
 const Projects = () => {
-    return (
-        <Fragment>
-            Projects
-        </Fragment>
-    )
-}
+  return <Fragment>Projects</Fragment>;
+};
 
-export default Projects
+export default Projects;
